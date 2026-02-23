@@ -1,0 +1,15 @@
+torch
+transformers
+datasets
+accelerate
+peft
+trl
+sentencepiece
+tqdm
+pandas
+scikit-learn
+textstat
+fastapi
+uvicorn
+sse-starlette
+python-multipart
