@@ -147,7 +147,7 @@ trainer = SFTTrainer(
     processing_class=tokenizer,
 )
 
-trainer.train(resume_from_checkpoint="adapters/eli5-lora-v1/checkpoint-2100")
+trainer.train(resume_from_checkpoint="adapters/eli5-lora-v1/checkpoint-3000")
 trainer.save_model(OUTPUT_DIR)
 
 

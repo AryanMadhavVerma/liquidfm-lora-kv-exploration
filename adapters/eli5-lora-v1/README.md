@@ -1,12 +1,15 @@
 ---
 base_model: LiquidAI/LFM2.5-1.2B-Instruct
-library_name: transformers
+library_name: peft
 model_name: eli5-lora-v1
 tags:
-- generated_from_trainer
-- trl
+- base_model:adapter:LiquidAI/LFM2.5-1.2B-Instruct
+- lora
 - sft
+- transformers
+- trl
 licence: license
+pipeline_tag: text-generation
 ---
 
 # Model Card for eli5-lora-v1
@@ -34,6 +37,7 @@ This model was trained with SFT.
 
 ### Framework versions
 
+- PEFT 0.18.1
 - TRL: 0.27.2
 - Transformers: 4.57.6
 - Pytorch: 2.9.1

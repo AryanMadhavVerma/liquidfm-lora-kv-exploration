@@ -7,7 +7,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 from peft import PeftModel
 
 MODEL_NAME = "LiquidAI/LFM2.5-1.2B-Instruct"
-ADAPTER_PATH = "adapters/eli5-lora-v1/checkpoint-2100"
+ADAPTER_PATH = "adapters/eli5-lora-v1/checkpoint-5625"
 PROMPTS_PATH = "data/eli5/eval_prompts.json"
 OUTPUTS_PATH = "eval/lora_outputs.json"
 METRICS_PATH = "eval/lora_metrics.csv"
