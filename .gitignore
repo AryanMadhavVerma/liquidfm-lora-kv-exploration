@@ -19,3 +19,6 @@ adapters/**/training_args.bin
 
 # Eval outputs (large text)
 eval/*_outputs.json
+
+# Merged model weights (too large for git)
+models/eli5-merged/
